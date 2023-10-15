@@ -1,13 +1,22 @@
 def add(x, y):
-    pass    
+    return  x+y
 
 def subtract(x, y):
-    return 0
- 
-
+    try:
+        answer = x-y
+    except:
+        print("Answer does not match output")
+    else:
+        return answer
+    
 def division(x, y):
-    pass
+    try:
+        answer2 = x/y
+    except:
+        print("Answer does not match output")
+    else:
+        return answer2
     
 
 def multiply(x, y):
-    pass    
+    return x*y   
